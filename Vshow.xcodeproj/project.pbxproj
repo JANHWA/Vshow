@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		26D2C41AF7A32AAC0CE94C50 /* Pods_Vshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005A0234101C005E58384000 /* Pods_Vshow.framework */; };
+		D05C7C4F1EA5DD9E009CE551 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C7C4E1EA5DD9E009CE551 /* NetworkTool.swift */; };
+		D05C7C521EA5E126009CE551 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C7C511EA5E126009CE551 /* CustomTabbarController.swift */; };
+		D05C7C5F1EA5E574009CE551 /* VSMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C7C5E1EA5E574009CE551 /* VSMeViewController.swift */; };
+		D05C7C611EA5E583009CE551 /* VSRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C7C601EA5E583009CE551 /* VSRankViewController.swift */; };
+		D05C7C631EA5E58F009CE551 /* VSDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C7C621EA5E58F009CE551 /* VSDiscoverViewController.swift */; };
+		D07519611EA893F200F01F3B /* VSDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07519601EA893F200F01F3B /* VSDayViewController.swift */; };
+		D07519631EA893FF00F01F3B /* VSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07519621EA893FF00F01F3B /* VSTableViewCell.swift */; };
+		D07519791EA8E33700F01F3B /* VSDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07519781EA8E33700F01F3B /* VSDetailViewController.swift */; };
+		D075197B1EA8E4CA00F01F3B /* VSDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075197A1EA8E4CA00F01F3B /* VSDetailView.swift */; };
+		D0A65BF11EA9D98A00B5FC2A /* HeaderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A65BF01EA9D98A00B5FC2A /* HeaderFile.swift */; };
+		D0A65BFA1EA9E08D00B5FC2A /* VSChioceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A65BF21EA9E08D00B5FC2A /* VSChioceModel.swift */; };
+		D0A65BFB1EA9E08D00B5FC2A /* VSConsumption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A65BF31EA9E08D00B5FC2A /* VSConsumption.swift */; };
+		D0A65BFC1EA9E08D00B5FC2A /* VSDailyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A65BF41EA9E08D00B5FC2A /* VSDailyList.swift */; };
+		D0A65BFD1EA9E08D00B5FC2A /* VSPlayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A65BF51EA9E08D00B5FC2A /* VSPlayInfo.swift */; };
+		D0A65BFE1EA9E08D00B5FC2A /* VSProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A65BF61EA9E08D00B5FC2A /* VSProvider.swift */; };
+		D0A65BFF1EA9E08D00B5FC2A /* VSTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A65BF71EA9E08D00B5FC2A /* VSTag.swift */; };
+		D0A65C001EA9E08D00B5FC2A /* VSUrlList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A65BF81EA9E08D00B5FC2A /* VSUrlList.swift */; };
+		D0A65C011EA9E08D00B5FC2A /* VSVideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A65BF91EA9E08D00B5FC2A /* VSVideoList.swift */; };
 		D0ADB57D1E62A0FD0051A51C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ADB57C1E62A0FD0051A51C /* AppDelegate.swift */; };
 		D0ADB57F1E62A0FD0051A51C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ADB57E1E62A0FD0051A51C /* ViewController.swift */; };
 		D0ADB5821E62A0FD0051A51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ADB5801E62A0FD0051A51C /* Main.storyboard */; };
@@ -38,6 +56,24 @@
 		005A0234101C005E58384000 /* Pods_Vshow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vshow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57523D1B94BDF49727A8B3F6 /* Pods-Vshow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vshow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vshow/Pods-Vshow.debug.xcconfig"; sourceTree = "<group>"; };
 		BA963B1953609A4F1F126437 /* Pods-Vshow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vshow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vshow/Pods-Vshow.release.xcconfig"; sourceTree = "<group>"; };
+		D05C7C4E1EA5DD9E009CE551 /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		D05C7C511EA5E126009CE551 /* CustomTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		D05C7C5E1EA5E574009CE551 /* VSMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSMeViewController.swift; sourceTree = "<group>"; };
+		D05C7C601EA5E583009CE551 /* VSRankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSRankViewController.swift; sourceTree = "<group>"; };
+		D05C7C621EA5E58F009CE551 /* VSDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSDiscoverViewController.swift; sourceTree = "<group>"; };
+		D07519601EA893F200F01F3B /* VSDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSDayViewController.swift; path = Day/Controller/VSDayViewController.swift; sourceTree = "<group>"; };
+		D07519621EA893FF00F01F3B /* VSTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSTableViewCell.swift; path = Day/View/VSTableViewCell.swift; sourceTree = "<group>"; };
+		D07519781EA8E33700F01F3B /* VSDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSDetailViewController.swift; sourceTree = "<group>"; };
+		D075197A1EA8E4CA00F01F3B /* VSDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSDetailView.swift; sourceTree = "<group>"; };
+		D0A65BF01EA9D98A00B5FC2A /* HeaderFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderFile.swift; sourceTree = "<group>"; };
+		D0A65BF21EA9E08D00B5FC2A /* VSChioceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSChioceModel.swift; path = Day/Model/VSChioceModel.swift; sourceTree = "<group>"; };
+		D0A65BF31EA9E08D00B5FC2A /* VSConsumption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSConsumption.swift; path = Day/Model/VSConsumption.swift; sourceTree = "<group>"; };
+		D0A65BF41EA9E08D00B5FC2A /* VSDailyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSDailyList.swift; path = Day/Model/VSDailyList.swift; sourceTree = "<group>"; };
+		D0A65BF51EA9E08D00B5FC2A /* VSPlayInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSPlayInfo.swift; path = Day/Model/VSPlayInfo.swift; sourceTree = "<group>"; };
+		D0A65BF61EA9E08D00B5FC2A /* VSProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSProvider.swift; path = Day/Model/VSProvider.swift; sourceTree = "<group>"; };
+		D0A65BF71EA9E08D00B5FC2A /* VSTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSTag.swift; path = Day/Model/VSTag.swift; sourceTree = "<group>"; };
+		D0A65BF81EA9E08D00B5FC2A /* VSUrlList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSUrlList.swift; path = Day/Model/VSUrlList.swift; sourceTree = "<group>"; };
+		D0A65BF91EA9E08D00B5FC2A /* VSVideoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VSVideoList.swift; path = Day/Model/VSVideoList.swift; sourceTree = "<group>"; };
 		D0ADB5791E62A0FD0051A51C /* Vshow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vshow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0ADB57C1E62A0FD0051A51C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0ADB57E1E62A0FD0051A51C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,10 +115,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D04AB6DC1E7953E600416C29 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D0ADB57C1E62A0FD0051A51C /* AppDelegate.swift */,
+				D0ADB57E1E62A0FD0051A51C /* ViewController.swift */,
+				D0ADB5801E62A0FD0051A51C /* Main.storyboard */,
+				D0ADB5831E62A0FD0051A51C /* Assets.xcassets */,
+				D0ADB5851E62A0FD0051A51C /* LaunchScreen.storyboard */,
+				D0ADB5881E62A0FD0051A51C /* Info.plist */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D05C7C501EA5E0EC009CE551 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D05C7C511EA5E126009CE551 /* CustomTabbarController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		D05C7C531EA5E3A6009CE551 /* Day */ = {
+			isa = PBXGroup;
+			children = (
+				D05C7C5C1EA5E52E009CE551 /* Controller */,
+				D075195D1EA7276100F01F3B /* View */,
+				D05C7C541EA5E3A8009CE551 /* Model */,
+			);
+			name = Day;
+			sourceTree = "<group>";
+		};
+		D05C7C541EA5E3A8009CE551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0A65BF21EA9E08D00B5FC2A /* VSChioceModel.swift */,
+				D0A65BF31EA9E08D00B5FC2A /* VSConsumption.swift */,
+				D0A65BF41EA9E08D00B5FC2A /* VSDailyList.swift */,
+				D0A65BF51EA9E08D00B5FC2A /* VSPlayInfo.swift */,
+				D0A65BF61EA9E08D00B5FC2A /* VSProvider.swift */,
+				D0A65BF71EA9E08D00B5FC2A /* VSTag.swift */,
+				D0A65BF81EA9E08D00B5FC2A /* VSUrlList.swift */,
+				D0A65BF91EA9E08D00B5FC2A /* VSVideoList.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D05C7C551EA5E3B1009CE551 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				D05C7C5B1EA5E522009CE551 /* Controller */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		D05C7C561EA5E3B5009CE551 /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				D05C7C5A1EA5E505009CE551 /* Controller */,
+				D05C7C571EA5E3B5009CE551 /* Model */,
+			);
+			name = Rank;
+			sourceTree = "<group>";
+		};
+		D05C7C571EA5E3B5009CE551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D05C7C581EA5E3BA009CE551 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D05C7C591EA5E4F2009CE551 /* Controller */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		D05C7C591EA5E4F2009CE551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D05C7C5E1EA5E574009CE551 /* VSMeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D05C7C5A1EA5E505009CE551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D05C7C601EA5E583009CE551 /* VSRankViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D05C7C5B1EA5E522009CE551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D05C7C621EA5E58F009CE551 /* VSDiscoverViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D05C7C5C1EA5E52E009CE551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D07519601EA893F200F01F3B /* VSDayViewController.swift */,
+				D07519781EA8E33700F01F3B /* VSDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D075195D1EA7276100F01F3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D07519621EA893FF00F01F3B /* VSTableViewCell.swift */,
+				D075197A1EA8E4CA00F01F3B /* VSDetailView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D0A65BEB1EA9D5FB00B5FC2A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D0A65BF01EA9D98A00B5FC2A /* HeaderFile.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		D0ADB5701E62A0FD0051A51C = {
 			isa = PBXGroup;
 			children = (
-				D0ADB5D91E62C6C30051A51C /* Tool */,
 				D0ADB57B1E62A0FD0051A51C /* Vshow */,
 				D0ADB5901E62A0FD0051A51C /* VshowTests */,
 				D0ADB59B1E62A0FD0051A51C /* VshowUITests */,
@@ -105,12 +268,14 @@
 		D0ADB57B1E62A0FD0051A51C /* Vshow */ = {
 			isa = PBXGroup;
 			children = (
-				D0ADB57C1E62A0FD0051A51C /* AppDelegate.swift */,
-				D0ADB57E1E62A0FD0051A51C /* ViewController.swift */,
-				D0ADB5801E62A0FD0051A51C /* Main.storyboard */,
-				D0ADB5831E62A0FD0051A51C /* Assets.xcassets */,
-				D0ADB5851E62A0FD0051A51C /* LaunchScreen.storyboard */,
-				D0ADB5881E62A0FD0051A51C /* Info.plist */,
+				D0A65BEB1EA9D5FB00B5FC2A /* Other */,
+				D05C7C581EA5E3BA009CE551 /* Me */,
+				D05C7C561EA5E3B5009CE551 /* Rank */,
+				D05C7C551EA5E3B1009CE551 /* Discover */,
+				D05C7C531EA5E3A6009CE551 /* Day */,
+				D05C7C501EA5E0EC009CE551 /* Base */,
+				D04AB6DC1E7953E600416C29 /* Common */,
+				D0ADB5D91E62C6C30051A51C /* Tool */,
 			);
 			path = Vshow;
 			sourceTree = "<group>";
@@ -136,8 +301,9 @@
 		D0ADB5D91E62C6C30051A51C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				D05C7C4E1EA5DD9E009CE551 /* NetworkTool.swift */,
 			);
-			name = Tool;
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		D30F6B085023613D1417350F /* Pods */ = {
@@ -222,7 +388,7 @@
 		D0ADB5711E62A0FD0051A51C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = JS;
+				CLASSPREFIX = VS;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Justin;
@@ -346,7 +512,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05C7C631EA5E58F009CE551 /* VSDiscoverViewController.swift in Sources */,
+				D07519791EA8E33700F01F3B /* VSDetailViewController.swift in Sources */,
 				D0ADB57F1E62A0FD0051A51C /* ViewController.swift in Sources */,
+				D0A65BFE1EA9E08D00B5FC2A /* VSProvider.swift in Sources */,
+				D0A65C011EA9E08D00B5FC2A /* VSVideoList.swift in Sources */,
+				D07519611EA893F200F01F3B /* VSDayViewController.swift in Sources */,
+				D05C7C611EA5E583009CE551 /* VSRankViewController.swift in Sources */,
+				D05C7C5F1EA5E574009CE551 /* VSMeViewController.swift in Sources */,
+				D0A65BFD1EA9E08D00B5FC2A /* VSPlayInfo.swift in Sources */,
+				D05C7C4F1EA5DD9E009CE551 /* NetworkTool.swift in Sources */,
+				D05C7C521EA5E126009CE551 /* CustomTabbarController.swift in Sources */,
+				D0A65BFC1EA9E08D00B5FC2A /* VSDailyList.swift in Sources */,
+				D0A65BFA1EA9E08D00B5FC2A /* VSChioceModel.swift in Sources */,
+				D075197B1EA8E4CA00F01F3B /* VSDetailView.swift in Sources */,
+				D0A65BFF1EA9E08D00B5FC2A /* VSTag.swift in Sources */,
+				D07519631EA893FF00F01F3B /* VSTableViewCell.swift in Sources */,
+				D0A65C001EA9E08D00B5FC2A /* VSUrlList.swift in Sources */,
+				D0A65BF11EA9D98A00B5FC2A /* HeaderFile.swift in Sources */,
+				D0A65BFB1EA9E08D00B5FC2A /* VSConsumption.swift in Sources */,
 				D0ADB57D1E62A0FD0051A51C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,11 +683,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UB324DE42;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Kingfisher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Realm\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/RealmSwift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SnapKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Vshow/PrefixHeader.pch";
 				INFOPLIST_FILE = Vshow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Justin.Vshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Debug;
 		};
@@ -513,11 +709,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UB324DE42;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Vshow/PrefixHeader.pch";
 				INFOPLIST_FILE = Vshow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Justin.Vshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Release;
 		};

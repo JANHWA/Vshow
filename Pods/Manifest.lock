@@ -1,29 +1,28 @@
 PODS:
   - Alamofire (4.3.0)
+  - BMPlayer (0.7.1):
+    - NVActivityIndicatorView
+    - SnapKit (~> 3.0)
   - Kingfisher (3.5.0)
-  - Realm (2.4.3):
-    - Realm/Headers (= 2.4.3)
-  - Realm/Headers (2.4.3)
-  - RealmSwift (2.4.3):
-    - Realm (= 2.4.3)
+  - NVActivityIndicatorView (3.5)
   - SnapKit (3.2.0)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire
+  - BMPlayer
   - Kingfisher
-  - RealmSwift
   - SnapKit
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  BMPlayer: 3823671b8f6f76aedd398c21019e4ba2a2c95de1
   Kingfisher: 7c62087039d93d26c54c8dd9b0b588d2ce55cef6
-  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
-  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
+  NVActivityIndicatorView: e5252b082f93885f0bfc24c318719b4eaabcd37b
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 99b024b10f142a1f561f6eedf328b8fb88fc1e66
+PODFILE CHECKSUM: 7fa4f4af043b4d0ed460a02c0d51a6a1fe859bd5
 
 COCOAPODS: 1.2.0
